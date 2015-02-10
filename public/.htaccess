@@ -1,0 +1,12 @@
+RewriteEngine on
+Options All -Indexes
+ServerSignature Off
+
+ErrorDocument 404 /404.html
+
+# Protect .htaccess
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
