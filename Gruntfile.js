@@ -19,13 +19,23 @@ module.exports = function(grunt) {
 			files: ['develop/js/main.js', 'develop/css/main.less'],
 			tasks: ['uglify', 'less'],
 			options: {spawn: false}
-		}
+		},
+		connect: {
+            server: {
+                options: {
+                    hostname: 'localhost',
+                    port: 900,
+                    base: './public'
+                }
+            }
+        }
 	});
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-connect');
 	
-	grunt.registerTask('default', ['watch']);
+	grunt.registerTask('default', ['connect','watch']);
 	grunt.registerTask('css', ['cssmin']);
 };
