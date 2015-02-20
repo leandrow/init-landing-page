@@ -2,6 +2,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
+		// Config plugins
 		uglify: {
 			'public/js/main.js': 'develop/js/*.js',
 			'public/js/components/uikit.min.js': 'develop/js/components/*.js'
@@ -21,15 +22,16 @@ module.exports = function(grunt) {
 			options: {spawn: false}
 		},
 		connect: {
-            server: {
-                options: {
-                    hostname: 'localhost',
-                    port: 900,
-                    base: './public'
-                }
-            }
-        }
+			server: {
+				options: {
+					hostname: 'localhost',
+					port: 900,
+					base: './public'
+				}
+			}
+		}
 	});
+	// Loading plugins
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
