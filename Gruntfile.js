@@ -4,17 +4,13 @@ module.exports = function(grunt) {
 
 		// Config plugins
 		uglify: {
-			'public/js/main.js': 'develop/js/*.js',
-			'public/js/components/uikit.min.js': 'develop/js/components/*.js'
+			'public/js/main.js': 'develop/js/**/*.js'
 		},
 		less: {
 			development: {
 				options: {compress: true},
-				files: {"public/css/main.css": "develop/css/*.less"}
+				files: {"public/css/main.css": "develop/css/**/*.less"}
 			}
-		},
-		cssmin: {
-			'public/css/components/uikit.min.css': 'develop/css/**/*.css'
 		},
 		watch: { 
 			files: ['develop/js/main.js', 'develop/css/main.less'],
@@ -34,10 +30,9 @@ module.exports = function(grunt) {
 	// Loading plugins
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-less');
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	
 	grunt.registerTask('default', ['connect','watch']);
-	grunt.registerTask('css', ['cssmin']);
+	grunt.registerTask('all', ['uglify','less']);
 };
