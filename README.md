@@ -1,6 +1,6 @@
 ## Workflow Boilerplate
 
-> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Grunt](http://gruntjs.com), [Less](http://lesscss.org) and [Primer](http://getuikit.com) CSS. My code editor: Sublime Text 3 ([plugins](https://gist.github.com/leandrow/f9cbcd779b6153f6030f)).
+> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Grunt](http://gruntjs.com), [Less](http://lesscss.org) and [Primer](http://primercss.io) CSS. My code editor: Sublime Text 3 ([plugins](https://gist.github.com/leandrow/f9cbcd779b6153f6030f)).
 
 
 ### Tree of directories
@@ -25,6 +25,9 @@
 |   |-- main.css
 |
 |-- img/
+|	|-- apple-touch-icon.png
+|	|-- icon.png
+|	|-- share.png
 |
 |-- js/
 |   |-- components/
@@ -34,9 +37,6 @@
 |
 |-- index.html
 |-- 404.html
-|-- icon.png
-|-- apple-touch-icon.png
-|-- share.png
 |-- .htaccess
 ```
 
