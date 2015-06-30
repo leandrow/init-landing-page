@@ -4,16 +4,16 @@ module.exports = function(grunt) {
 
 		// Config plugins
 		uglify: {
-			'public/js/main.js': 'develop/js/**/*.js'
+			'src/js/main.js': 'build/js/**/*.js'
 		},
 		less: {
 			development: {
 				options: {compress: true},
-				files: {"public/css/main.css": "develop/css/**/*.less"}
+				files: {"src/css/main.css": "build/css/**/*.less"}
 			}
 		},
 		watch: { 
-			files: ['develop/js/main.js', 'develop/css/main.less'],
+			files: ['build/js/main.js', 'build/css/main.less'],
 			tasks: ['uglify', 'less'],
 			options: {spawn: false}
 		},
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 				options: {
 					hostname: 'localhost',
 					port: 900,
-					base: './public'
+					base: './src'
 				}
 			}
 		}
