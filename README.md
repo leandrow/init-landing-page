@@ -1,6 +1,6 @@
-## Workflow Boilerplate
+## My Workflow
 
-> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Grunt](http://gruntjs.com), [Stylus](https://learnboost.github.io/stylus/) and [Primer](http://primercss.io) CSS. My code editor: Sublime Text 3 ([plugins](https://gist.github.com/leandrow/f9cbcd779b6153f6030f)).
+> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/), [Bootstrap](http://getbootstrap.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom] (https://atom.io/).
 
 
 ### Folders and files
@@ -10,6 +10,9 @@
 |
 |-- css/
 |   |-- components/
+|       |-- colors.styl
+|       |-- mixins.styl
+|       |-- flexbox.styl
 |   |-- main.styl
 |
 |-- js/
@@ -20,8 +23,8 @@
 | src/
 |
 |-- css/
-|   |-- components/
-|       |-- primer.css
+|   |-- lib/
+|       |-- bootstrap.min.css
 |   |-- main.css
 |
 |-- img/
@@ -30,8 +33,9 @@
 |	|-- share.png
 |
 |-- js/
-|   |-- components/
+|   |-- lib/
 |       |-- html5-respond.min.js
+|       |-- bootstrap.min.js
 |       |-- jquery.min.js
 |   |-- main.js
 |
@@ -42,4 +46,4 @@
 
 ### :)
 
-Have a [suggestion](https://github.com/leandrow/workflow-boilerplate/issues)?
+Have a [suggestion](https://github.com/leandrow/my-workflow/issues)?
