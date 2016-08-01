@@ -1,12 +1,16 @@
 /*
- *  author : 
- *  email  : 
+ *  author :
+ *  email  :
  */
 
-border-radius(n)
-	-webkit-border-radius n
-	-moz-border-radius n
-	border-radius n
+// Imports
+@import "lib/colors.styl"
+@import "lib/flexbox.styl"
+@import "lib/mixins.styl"
 
-form input[type=button]
-	border-radius(5px)
+
+// Main (example)
+form
+	input[type=button]
+		border-radius(5px)
+	color: $color--dark

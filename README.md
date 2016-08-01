@@ -9,14 +9,14 @@
 | build/
 |
 |-- css/
-|   |-- components/
+|   |-- lib/
 |       |-- colors.styl
-|       |-- mixins.styl
 |       |-- flexbox.styl
+|       |-- mixins.styl
 |   |-- main.styl
 |
 |-- js/
-|   |-- components/
+|   |-- lib/
 |   |-- main.js
 |
 |
@@ -34,9 +34,8 @@
 |
 |-- js/
 |   |-- lib/
-|       |-- html5-respond.min.js
 |       |-- bootstrap.min.js
-|       |-- jquery.min.js
+|       |-- jquery-3.1.0.min.js
 |   |-- main.js
 |
 |-- index.html
