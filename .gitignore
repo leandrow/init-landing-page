@@ -1,3 +1,3 @@
 node_modules
-src/css/*.css
-src/js/*.js
+dist/css/*.css
+dist/js/*.js

@@ -14,13 +14,13 @@ var gulp          = require('gulp'),
 // Browser Sync
 gulp.task('browserSync', function() {
   browserSync.init({
-    server: 'src'
+    server: 'dist'
   })
 });
 
 // Stylus
 gulp.task('css', function () {
-  return gulp.src('build/css/*.styl')
+  return gulp.src('src/css/*.styl')
     .pipe(sourcemaps.init())
     .pipe(stylus({
       'include css': true
@@ -38,15 +38,15 @@ gulp.task('css', function () {
     ]))
     .pipe(cssnano())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('src/css'));
+    .pipe(gulp.dest('dist/css'));
 });
 
 // Js
 gulp.task('js', function (cb) {
   pump([
-      gulp.src('build/js/**/*.js'),
+      gulp.src('src/js/**/*.js'),
       uglify(),
-      gulp.dest('src/js')
+      gulp.dest('dist/js')
     ],
     cb
   );
@@ -55,7 +55,7 @@ gulp.task('js', function (cb) {
 // Tasks
 gulp.task('default', ['browserSync', 'css', 'js'], function(){
 
-  gulp.watch('build/css/**/*.styl', ['css', browserSync.reload]);
-  gulp.watch('build/js/**/*.js', ['js', browserSync.reload]);
-  gulp.watch('src/*.html', browserSync.reload);
+  gulp.watch('src/css/**/*.styl', ['css', browserSync.reload]);
+  gulp.watch('src/js/**/*.js', ['js', browserSync.reload]);
+  gulp.watch('dist/*.html', browserSync.reload);
 });

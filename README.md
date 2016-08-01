@@ -6,7 +6,7 @@
 ### Folders and files
 
 ```
-| build/
+| src/
 |
 |-- css/
 |   |-- lib/
@@ -20,7 +20,7 @@
 |   |-- main.js
 |
 |
-| src/
+| dist/
 |
 |-- css/
 |   |-- lib/
