@@ -1,6 +1,6 @@
 ## My Workflow
 
-> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/), [Bootstrap](http://getbootstrap.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom] (https://atom.io/).
+> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom] (https://atom.io/).
 
 
 ### Folders and files
@@ -13,6 +13,7 @@
 |       |-- colors.styl
 |       |-- flexbox.styl
 |       |-- mixins.styl
+|       |-- lost.styl
 |   |-- main.styl
 |
 |-- js/
@@ -24,7 +25,6 @@
 |
 |-- css/
 |   |-- lib/
-|       |-- bootstrap.min.css
 |   |-- main.css
 |
 |-- img/
@@ -34,8 +34,7 @@
 |
 |-- js/
 |   |-- lib/
-|       |-- bootstrap.min.js
-|       |-- jquery-3.1.0.min.js
+|       |-- jquery-3.1.1.min.js
 |   |-- main.js
 |
 |-- index.html
