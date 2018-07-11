@@ -1,6 +1,6 @@
 ## My Workflow
 
-> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom] (https://atom.io/).
+> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom](https://atom.io/).
 
 
 ### Folders and files
