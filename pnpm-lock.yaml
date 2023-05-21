@@ -7,6 +7,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.23
     version: 8.4.23
+  postcss-import:
+    specifier: ^15.1.0
+    version: 15.1.0(postcss@8.4.23)
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
