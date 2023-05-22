@@ -4,6 +4,6 @@
 
 @layer components {
     .read-the-docs {
-        @apply text-sm text-neutral-500;
+        @apply text-sm text-neutral-500 inline-flex gap-1;
     }
 }
