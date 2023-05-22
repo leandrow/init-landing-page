@@ -2,27 +2,40 @@
 
 > Rapidly build modern websites with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
+### Preview
+
+View the index.html
+`Coming soon.`
+
+### Development
+
+**Install** dependencies with [pnpm](https://pnpm.io/)
+
+```sh
+pnpm install
+```
+**To run** and **build**
+```sh
+npm run dev
+```
+
+```sh
+npm run build
+```
+
 
 ### Folders and files
 
 ```
-SRC
+Dev
 |-- assets
-|   |-- main.js
-|
-|-- public
-|   |-- images
-|
+|-- public/images
 |-- styles
-|   |-- tailwind.css
 |
 |-- index.html
 
-DIST
+Build
 |-- assets
-|   |-- index.js
-|   |-- index.css
-|
 |-- images
 |
 |-- index.html
