@@ -1,5 +1,5 @@
 import '../styles/main.css'
-import '../../node_modules/feather-icons/dist/feather'
+import feather from 'feather-icons'
 import { setupCounter } from './counter.js'
 
 feather.replace()
