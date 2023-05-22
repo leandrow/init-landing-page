@@ -1,47 +1,33 @@
-## My Workflow
+## Init setup
 
-> Front-end development based in [HTML5 Boilerplate](http://h5bp.com) with [Stylus](http://stylus-lang.com/) and [Gulp](http://gulpjs.com/). My code editor: [Atom](https://atom.io/).
+> Rapidly build modern websites with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 
 ### Folders and files
 
 ```
-| src/
-|
-|-- css/
-|   |-- lib/
-|       |-- colors.styl
-|       |-- flexbox.styl
-|       |-- mixins.styl
-|       |-- lost.styl
-|   |-- main.styl
-|
-|-- js/
-|   |-- lib/
+SRC
+|-- assets
 |   |-- main.js
 |
+|-- public
+|   |-- images
 |
-| dist/
-|
-|-- css/
-|   |-- lib/
-|   |-- main.css
-|
-|-- img/
-|	|-- apple-touch-icon.png
-|	|-- icon.png
-|	|-- share.png
-|
-|-- js/
-|   |-- lib/
-|       |-- jquery-3.1.1.min.js
-|   |-- main.js
+|-- styles
+|   |-- tailwind.css
 |
 |-- index.html
-|-- 404.html
-|-- .htaccess
+
+DIST
+|-- assets
+|   |-- index.js
+|   |-- index.css
+|
+|-- images
+|
+|-- index.html
 ```
 
-### :)
+😃
 
-Have a [suggestion](https://github.com/leandrow/my-workflow/issues)?
+Have a [suggestion](https://github.com/leandrow/init-setup/issues)?
