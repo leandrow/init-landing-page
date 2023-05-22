@@ -43,4 +43,5 @@ Build
 
 😃
 
-Have a [suggestion](https://github.com/leandrow/init-setup/issues)?
+**Got any suggestions to make things even better?**
+[Send it here](https://github.com/leandrow/init-setup/issues)
