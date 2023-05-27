@@ -1,4 +1,4 @@
-## Init setup
+## 🚀 Init setup
 
 > Rapidly build modern websites with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
@@ -24,7 +24,7 @@ npm run build
 ```
 
 
-### Folders and files
+### What's inside?
 
 ```
 Dev
