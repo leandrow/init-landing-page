@@ -11,10 +11,14 @@
   transition: filter 300ms;
 }
 .vite:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1em #646cffaa);
 }
 .vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
+  filter: drop-shadow(0 0 1em #f7df1eaa);
+}
+.tailwind:hover {
+  filter: drop-shadow(0 0 1em #38bdf8aa);
+  
 }
 
 @media (prefers-color-scheme: light) {

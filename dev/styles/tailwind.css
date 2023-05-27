@@ -16,9 +16,3 @@
         @apply border text-base font-medium cursor-pointer rounded-lg border-solid border-transparent hover:dark:border-[#646cff] transition-[border-color] duration-[0.25s] px-5 py-2.5 focus:outline outline-2 dark:bg-neutral-900;
     }
 }
-
-@layer utilities {
-    .credits {
-        @apply text-sm text-neutral-500 inline-flex gap-1;
-    }
-}
