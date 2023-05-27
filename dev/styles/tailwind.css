@@ -7,12 +7,12 @@
         @apply flex place-items-center sm:min-w-fit min-h-screen m-0;
     }
     a {
-        @apply font-medium text-indigo-500 hover:text-indigo-600; 
+        @apply font-medium text-indigo-500 hover:text-indigo-600 duration-200 ease-in-out; 
     }
 }
 
 @layer components {
     .button {
-        @apply border text-base font-medium cursor-pointer rounded-lg border-solid border-transparent hover:dark:border-[#646cff] transition-[border-color] duration-[0.25s] px-5 py-2.5 focus:outline outline-2 dark:bg-neutral-900;
+        @apply border text-base font-medium cursor-pointer rounded-lg border-solid border-transparent hover:dark:border-[#646cff] duration-200 ease-in-out px-5 py-2.5 focus:outline outline-2 dark:bg-neutral-900;
     }
 }
