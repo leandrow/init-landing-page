@@ -1,4 +1,4 @@
-@import "./tailwind.css";
+@import './tailwind.css';
 
 :root {
   color-scheme: light dark;
@@ -18,7 +18,6 @@
 }
 .tailwind:hover {
   filter: drop-shadow(0 0 1em #38bdf8aa);
-  
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,7 +25,8 @@
     color: #213547;
     background-color: #ffffff;
   }
-  button, [type='button'] {
+  button,
+  [type='button'] {
     background-color: #e1e1e1;
   }
 }
