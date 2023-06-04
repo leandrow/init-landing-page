@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
-  <body class="h-screen">
-    <header class="max-w-full">
+  <body class="flex flex-col h-screen">
+    <header>
       <div class="flex items-center justify-end gap-4 p-6">
         <a href="#" class="block shrink-0 text-sm underline">Github</a>
         <span
@@ -25,46 +25,50 @@
         </button>
       </div>
     </header>
-    <main class="mx-auto max-w-lg text-center h-[80vh] flex flex-col px-6">
-      <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
-      <p class="font-light">
-        Rapidly build modern websites with
-        <a href="https://vitejs.dev" target="_blank">
-          <img
-            src="/images/vite.svg"
-            class="logo vite inline h-8 p-1"
-            alt="Vite logo"
-          />
-        </a>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-        >
-          <img
-            src="/images/javascript.svg"
-            class="logo vanilla inline h-8 p-1"
-            alt="JavaScript logo"
-          />
-        </a>
-        <a href="" target="_blank">
-          <img
-            src="/images/tailwind.svg"
-            class="logo tailwind inline h-8 p-1"
-            alt="Tailwind CSS logo"
-          />
-        </a>
-      </p>
-      <div class="py-12">
-        <button id="counter" class="button" type="button"></button>
+    <main class="mx-auto max-w-2xl flex grow justify-center px-6">
+      <div class="flex flex-col self-center lg:self-auto">
+        <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
+        <p class="font-light">
+          Rapidly build modern websites with
+          <a href="https://vitejs.dev" target="_blank">
+            <img
+              src="/images/vite.svg"
+              class="logo vite inline h-7 p-1"
+              alt="Vite logo"
+            />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <img
+              src="/images/javascript.svg"
+              class="logo vanilla inline h-7 p-1"
+              alt="JavaScript logo"
+            />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="/images/tailwind.svg"
+              class="logo tailwind inline h-7 p-1"
+              alt="Tailwind CSS logo"
+            />
+          </a>
+        </p>
+        <div class="py-12">
+          <button id="counter" class="button" type="button"></button>
+        </div>
       </div>
-      <p class="text-sm text-neutral-500 mt-auto pb-6">
+    </main>
+    <footer>
+      <p class="text-sm text-neutral-500 p-6">
         Made with
         <i class="h-5 inline text-red-600" data-feather="heart"></i> by
         <a href="https://github.com/leandrow" class="underline">
           Leandro Silva
         </a>
       </p>
-    </main>
+    </footer>
     <script type="module" src="/assets/main.js"></script>
   </body>
 </html>
