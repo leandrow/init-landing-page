@@ -3,7 +3,7 @@
 :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  @apply bg-neutral-900;
 }
 
 .logo {
@@ -22,11 +22,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    @apply bg-white text-neutral-800;
   }
   button,
   [type='button'] {
-    background-color: #e1e1e1;
+    @apply bg-neutral-200;
   }
 }
