@@ -8,8 +8,24 @@
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
-  <body>
-    <main class="mx-auto my-0 max-w-7xl p-8 text-center h-[80vh] flex flex-col">
+  <body class="h-screen">
+    <header class="max-w-full">
+      <div class="flex items-center justify-end gap-4 p-6">
+        <a href="#" class="block shrink-0 text-sm underline">Github</a>
+        <span
+          aria-hidden="true"
+          class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
+        ></span>
+        <button class="button-rounded">
+          <span class="sr-only">Activate light or dark mode</span>
+          <i
+            data-feather="sun"
+            class="w-auto h-5 text-neutral-600 dark:text-neutral-200"
+          ></i>
+        </button>
+      </div>
+    </header>
+    <main class="mx-auto max-w-lg text-center h-[80vh] flex flex-col px-6">
       <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
       <p class="font-light">
         Rapidly build modern websites with
@@ -41,9 +57,9 @@
       <div class="py-12">
         <button id="counter" class="button" type="button"></button>
       </div>
-      <p class="text-sm text-neutral-500 mt-auto">
+      <p class="text-sm text-neutral-500 mt-auto pb-6">
         Made with
-        <i class="w-5 h-5 inline text-pink-600" data-feather="heart"></i> by
+        <i class="h-5 inline text-red-600" data-feather="heart"></i> by
         <a href="https://github.com/leandrow" class="underline">
           Leandro Silva
         </a>

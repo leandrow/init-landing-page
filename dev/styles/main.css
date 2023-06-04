@@ -2,8 +2,7 @@
 
 :root {
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  @apply bg-neutral-900;
+  @apply bg-neutral-900 text-neutral-200;
 }
 
 .logo {
@@ -23,9 +22,5 @@
 @media (prefers-color-scheme: light) {
   :root {
     @apply bg-white text-neutral-800;
-  }
-  button,
-  [type='button'] {
-    @apply bg-neutral-200;
   }
 }
