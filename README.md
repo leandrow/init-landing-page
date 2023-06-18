@@ -22,14 +22,20 @@ git clone https://github.com/leandrow/init-setup.git
 pnpm install
 ```
 
-**To run** and **build**
+**To run**
 
 ```sh
 npm run dev
 ```
 
+**To build**
+
 ```sh
 npm run build
+```
+
+```sh
+npm run preview
 ```
 
 ### What's inside?
