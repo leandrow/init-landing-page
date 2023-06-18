@@ -1,11 +1,9 @@
 lockfileVersion: '6.0'
 
-dependencies:
+devDependencies:
   feather-icons:
     specifier: ^4.29.0
     version: 4.29.0
-
-devDependencies:
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.23)
