@@ -13,7 +13,7 @@
       <div class="flex items-center justify-end gap-4 p-6">
         <a
           href="https://github.com/leandrow/init-setup"
-          class="block shrink-0 text-sm underline"
+          class="block shrink-0 text-sm"
         >
           Github
         </a>
@@ -36,38 +36,50 @@
         </button>
       </div>
     </header>
-    <main class="mx-auto max-w-2xl flex grow justify-center px-6">
+    <main class="mx-auto flex grow justify-center px-6">
       <div class="self-center lg:self-auto">
-        <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
+        <h1 class="text-5xl my-6 font-bold">Init setup</h1>
         <p class="font-light">
           Rapidly build modern websites with
-          <a href="https://vitejs.dev" target="_blank">
-            <img
-              src="/images/vite.svg"
-              class="logo vite inline h-7 p-1"
-              alt="Vite logo"
-            />
-          </a>
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-            target="_blank"
-          >
-            <img
-              src="/images/javascript.svg"
-              class="logo vanilla inline h-7 p-1"
-              alt="JavaScript logo"
-            />
-          </a>
-          <a href="" target="_blank">
-            <img
-              src="/images/tailwind.svg"
-              class="logo tailwind inline h-7 p-1"
-              alt="Tailwind CSS logo"
-            />
-          </a>
+          <span class="inline-block">
+            <a href="https://vitejs.dev" target="_blank">
+              <img
+                src="/images/vite.svg"
+                class="logo vite inline h-7 p-1"
+                alt="Vite logo"
+              />
+            </a>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+            >
+              <img
+                src="/images/javascript.svg"
+                class="logo vanilla inline h-7 p-1"
+                alt="JavaScript logo"
+              />
+            </a>
+            <a href="https://tailwindcss.com" target="_blank">
+              <img
+                src="/images/tailwind.svg"
+                class="logo tailwind inline h-7 p-1"
+                alt="Tailwind CSS logo"
+              />
+            </a>
+          </span>
         </p>
         <div class="py-12">
           <button id="counter" class="button" type="button"></button>
+          <p class="text-xs text-neutral-500 py-4">
+            <span
+              class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
+            >
+              Tip
+            </span>
+            You can use
+            <a href="https://www.hyperui.dev" target="_blank"> HypeUI</a>, just
+            copy the components code.
+          </p>
         </div>
       </div>
     </main>
@@ -75,9 +87,7 @@
       <p class="text-sm text-neutral-500 p-6">
         Made with
         <i class="h-5 inline text-red-600" data-feather="heart"></i> by
-        <a href="https://github.com/leandrow" class="underline">
-          Leandro Silva
-        </a>
+        <a href="https://github.com/leandrow"> Leandro Silva </a>
       </p>
     </footer>
     <script type="module" src="/assets/main.js"></script>
