@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/images/vite.svg" />
@@ -21,12 +21,18 @@
           aria-hidden="true"
           class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
         ></span>
-        <button class="button-rounded">
+        <button class="toggle-mode button-rounded">
           <span class="sr-only">Activate light or dark mode</span>
-          <i
-            data-feather="sun"
-            class="w-auto h-5 text-neutral-600 dark:text-neutral-200"
-          ></i>
+          <img
+            src="/images/sun.svg"
+            class="light-icon w-auto h-5"
+            alt="Light mode"
+          />
+          <img
+            src="/images/moon.svg"
+            class="dark-icon w-auto hidden h-5"
+            alt="Dark mode"
+          />
         </button>
       </div>
     </header>

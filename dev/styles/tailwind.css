@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-white text-neutral-800 dark:bg-neutral-900 dark:text-neutral-200;
+  }
   a {
     @apply font-medium text-blue-600 hover:text-blue-500 duration-200 ease-in-out;
   }
