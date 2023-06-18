@@ -1,11 +1,5 @@
 @import './tailwind.css';
 
-:root {
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  @apply bg-neutral-900;
-}
-
 .logo {
   will-change: filter;
   transition: filter 300ms;
@@ -18,14 +12,4 @@
 }
 .tailwind:hover {
   filter: drop-shadow(0 0 1em #38bdf8aa);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    @apply bg-white text-neutral-800;
-  }
-  button,
-  [type='button'] {
-    @apply bg-neutral-200;
-  }
 }

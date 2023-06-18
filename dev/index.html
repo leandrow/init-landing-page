@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/images/vite.svg" />
@@ -8,47 +8,78 @@
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
-  <body>
-    <main class="mx-auto my-0 max-w-7xl p-8 text-center h-[80vh] flex flex-col">
-      <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
-      <p class="font-light">
-        Rapidly build modern websites with
-        <a href="https://vitejs.dev" target="_blank">
-          <img
-            src="/images/vite.svg"
-            class="logo vite inline h-8 p-1"
-            alt="Vite logo"
-          />
-        </a>
+  <body class="flex flex-col h-screen">
+    <header>
+      <div class="flex items-center justify-end gap-4 p-6">
         <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
+          href="https://github.com/leandrow/init-setup"
+          class="block shrink-0 text-sm underline"
         >
-          <img
-            src="/images/javascript.svg"
-            class="logo vanilla inline h-8 p-1"
-            alt="JavaScript logo"
-          />
+          Github
         </a>
-        <a href="" target="_blank">
+        <span
+          aria-hidden="true"
+          class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
+        ></span>
+        <button class="toggle-mode button-rounded">
+          <span class="sr-only">Activate light or dark mode</span>
           <img
-            src="/images/tailwind.svg"
-            class="logo tailwind inline h-8 p-1"
-            alt="Tailwind CSS logo"
+            src="/images/sun.svg"
+            class="light-icon w-auto h-5"
+            alt="Light mode"
           />
-        </a>
-      </p>
-      <div class="py-12">
-        <button id="counter" class="button" type="button"></button>
+          <img
+            src="/images/moon.svg"
+            class="dark-icon w-auto hidden h-5"
+            alt="Dark mode"
+          />
+        </button>
       </div>
-      <p class="text-sm text-neutral-500 mt-auto">
+    </header>
+    <main class="mx-auto max-w-2xl flex grow justify-center px-6">
+      <div class="self-center lg:self-auto">
+        <h1 class="text-5xl my-6 font-bold">🚀 Init setup</h1>
+        <p class="font-light">
+          Rapidly build modern websites with
+          <a href="https://vitejs.dev" target="_blank">
+            <img
+              src="/images/vite.svg"
+              class="logo vite inline h-7 p-1"
+              alt="Vite logo"
+            />
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <img
+              src="/images/javascript.svg"
+              class="logo vanilla inline h-7 p-1"
+              alt="JavaScript logo"
+            />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="/images/tailwind.svg"
+              class="logo tailwind inline h-7 p-1"
+              alt="Tailwind CSS logo"
+            />
+          </a>
+        </p>
+        <div class="py-12">
+          <button id="counter" class="button" type="button"></button>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-auto">
+      <p class="text-sm text-neutral-500 p-6">
         Made with
-        <i class="w-5 h-5 inline text-pink-600" data-feather="heart"></i> by
+        <i class="h-5 inline text-red-600" data-feather="heart"></i> by
         <a href="https://github.com/leandrow" class="underline">
           Leandro Silva
         </a>
       </p>
-    </main>
+    </footer>
     <script type="module" src="/assets/main.js"></script>
   </body>
 </html>

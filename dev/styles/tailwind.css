@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply flex place-items-center sm:min-w-fit min-h-screen m-0;
+    @apply bg-white text-neutral-800 dark:bg-neutral-900 dark:text-neutral-200;
   }
   a {
     @apply font-medium text-blue-600 hover:text-blue-500 duration-200 ease-in-out;
@@ -13,6 +13,9 @@
 
 @layer components {
   .button {
-    @apply border text-base font-medium cursor-pointer rounded-lg border-solid border-transparent hover:dark:border-[#646cff] duration-200 ease-in-out px-5 py-2.5 focus:outline outline-2 dark:bg-neutral-800;
+    @apply border text-base font-medium cursor-pointer rounded-lg border-solid border-transparent ease-in-out px-5 py-2.5 focus:outline outline-2 bg-neutral-200 dark:bg-neutral-800;
+  }
+  .button-rounded {
+    @apply block shrink-0 rounded-full p-2 hover:bg-neutral-100 hover:dark:bg-neutral-800 duration-200 ease-in-out;
   }
 }
