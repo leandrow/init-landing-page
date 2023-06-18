@@ -2,19 +2,28 @@
 
 > Rapidly build modern websites with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
-### Preview
+### View
 
-View the index.html
-`Coming soon.`
+**[See demo](https://leandrow.github.io/init-setup)** 👀
+
+`Tip:` You can use [HypeUI](), just copy the components code.
 
 ### Development
+
+**Git clone**
+
+```sh
+git clone https://github.com/leandrow/init-setup.git
+```
 
 **Install** dependencies with [pnpm](https://pnpm.io/)
 
 ```sh
 pnpm install
 ```
+
 **To run** and **build**
+
 ```sh
 npm run dev
 ```
@@ -22,7 +31,6 @@ npm run dev
 ```sh
 npm run build
 ```
-
 
 ### What's inside?
 
