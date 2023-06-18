@@ -35,10 +35,14 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
+
+      - name: Install pnpm
+        run: npm install --global pnpm
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
       - name: Build
-        run: npm run build
+        run: pnpm run build
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
