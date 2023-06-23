@@ -6,7 +6,7 @@
 
 **[See demo](https://leandrow.github.io/init-setup)** 👀
 
-`Tip:` You can use [HypeUI](), just copy the components code.
+`Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
 
 ### Development
 
@@ -16,7 +16,13 @@
 git clone https://github.com/leandrow/init-setup.git
 ```
 
-**Install** dependencies with [pnpm](https://pnpm.io/)
+Enter the **project folder**
+
+```sh
+cd /init-setup
+```
+
+**Install dependencies** with [pnpm](https://pnpm.io/)
 
 ```sh
 pnpm install
