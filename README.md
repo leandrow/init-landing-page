@@ -8,7 +8,24 @@
 
 `Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
 
-### Development
+### Dark mode
+
+The project starts with Dark mode activated. To start with **Light mode**, follow these steps:
+
+**/index.html**
+
+1. Remove the `dark` class from `<html>` tag
+2. Remove the `hidden` class from **moon**.svg
+3. Add the `hidden` class to **sun**.svg
+
+### VS Code
+
+Recommended plugins
+
+- Tailwind CSS IntelliSense
+- Prettier - Code formatter
+
+## Development
 
 **Git clone**
 
