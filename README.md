@@ -10,13 +10,10 @@
 
 ### Dark mode
 
-The project starts with Dark mode activated. To start with **Light mode**, follow these steps:
+The project starts with Dark mode activated. To start with **Light mode**:
 
-**/index.html**
-
-1. Remove the `dark` class from `<html>` tag
-2. Remove the `hidden` class from **moon**.svg
-3. Add the `hidden` class to **sun**.svg
+1. Open the `/assets/darkmode.js`
+2. Set `localStorage.theme = 'light'`
 
 ### VS Code
 
