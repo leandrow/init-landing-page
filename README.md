@@ -33,7 +33,7 @@ git clone https://github.com/leandrow/init-setup.git
 Enter the **project folder**
 
 ```sh
-cd /init-setup
+cd init-setup
 ```
 
 **Install dependencies** with [pnpm](https://pnpm.io/)
