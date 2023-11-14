@@ -8,6 +8,7 @@
     "preview": "vite preview --host"
   },
   "devDependencies": {
+    "@fontsource-variable/inter": "^5.0.15",
     "@phosphor-icons/web": "^2.0.3",
     "autoprefixer": "^10.4.14",
     "feather-icons": "^4.29.0",
