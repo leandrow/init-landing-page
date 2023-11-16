@@ -7,13 +7,18 @@
     <title>Init landing page</title>
   </head>
   <body class="flex flex-col h-screen">
-    <header>
-      <div class="flex items-center justify-end gap-4 p-6">
+    <header class="flex justify-between p-6 min-w-max">
+      <div class="flex items-center justify-start gap-4 pr-4">
+        <i class="ph ph-rocket-launch text-xl"></i>
+        <a href="#home" class="block shrink-0 text-sm">home</a>
+        <a href="#section-2" class="block shrink-0 text-sm">section 2</a>
+      </div>
+      <div class="flex items-center justify-end gap-4">
         <a
           href="https://github.com/leandrow/init-setup"
           class="block shrink-0 text-sm"
         >
-          Github
+          github
         </a>
         <span
           aria-hidden="true"
@@ -26,10 +31,15 @@
         </button>
       </div>
     </header>
-    <main class="mx-auto flex grow justify-center px-6">
-      <div class="self-center lg:self-auto">
-        <h1 class="text-5xl my-6 font-bold">Init landing page</h1>
-        <i class="ph ph-rocket-launch text-lg"></i>
+    <main
+      class="w-full max-w-2xl mx-auto grow px-6 divide-y divide-neutral-200 dark:divide-neutral-800"
+    >
+      <!-- When it's a single section:
+      <section id="home" class="self-center lg:self-auto py-4"></section> -->
+      <section id="home" class="py-4">
+        <h1 class="text-5xl my-6 font-bold leading-normal">
+          Init landing page
+        </h1>
         <p class="font-light">
           Rapidly build modern landing pages with
           <span class="inline-block">
@@ -41,7 +51,7 @@
               />
             </a>
             <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              href="https://stackblitz.com/edit/vitejs-vite-pugz49?file=counter.js&terminal=dev"
               target="_blank"
             >
               <img
@@ -61,7 +71,7 @@
         </p>
         <div class="py-12">
           <a class="button" href="https://www.hyperui.dev" target="_blank"
-            >Components</a
+            >components</a
           >
           <p class="text-xs text-neutral-500 py-4">
             <span
@@ -74,14 +84,31 @@
             copy the components code.
           </p>
         </div>
-      </div>
+      </section>
+      <section id="section-2" class="py-8">
+        <h1 class="text-5xl my-6 font-semibold leading-normal">Title</h1>
+        <p class="font-light">Example</p>
+        <div class="py-12">
+          <a class="button">button</a>
+          <p class="text-xs text-neutral-500 py-4">
+            <span
+              class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
+            >
+              Tip
+            </span>
+            Sample section.
+          </p>
+        </div>
+      </section>
     </main>
-    <footer class="mt-auto">
-      <p class="text-sm text-neutral-500 p-6 inline-flex gap-x-1 flex-wrap">
-        Made with
-        <i class="ph ph-heart-straight text-lg text-red-600"></i> by
-        <a href="https://github.com/leandrow"> Leandro Silva </a>
-      </p>
+    <footer>
+      <div class="mt-auto">
+        <p class="text-sm text-neutral-500 p-6 inline-flex gap-x-1 flex-wrap">
+          made with
+          <i class="ph ph-heart-straight text-lg text-red-600"></i> by
+          <a href="https://github.com/leandrow"> Leandro Silva </a>
+        </p>
+      </div>
     </footer>
     <script type="module" src="/assets/main.js"></script>
   </body>
