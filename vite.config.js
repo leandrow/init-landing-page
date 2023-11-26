@@ -16,5 +16,5 @@ export default {
     },
     outDir: '../build',
   },
-  base: '/init-setup/',
+  base: '/init-landing-page/',
 };
