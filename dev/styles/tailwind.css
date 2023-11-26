@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  ::selection {
+    @apply bg-green-200 text-neutral-900;
+  }
   html {
     @apply scroll-smooth;
   }
