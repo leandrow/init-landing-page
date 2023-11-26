@@ -1,10 +1,10 @@
 ## 🚀 Init setup
 
-> Rapidly build modern websites with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+> Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ### View
 
-**[See demo](https://leandrow.github.io/init-setup)** 👀
+**[See demo](https://leandrow.github.io/init-landing-page)** 👀
 
 `Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
 
@@ -27,13 +27,13 @@ Recommended plugins
 **Git clone**
 
 ```sh
-git clone https://github.com/leandrow/init-setup.git
+git clone https://github.com/leandrow/init-landing-page.git
 ```
 
 Enter the **project folder**
 
 ```sh
-cd init-setup
+cd init-landing-page
 ```
 
 **Install dependencies** with [pnpm](https://pnpm.io/)
@@ -78,4 +78,4 @@ Build
 😃
 
 **Got any suggestions to make things even better?**
-[Send it here](https://github.com/leandrow/init-setup/issues)
+[Send it here](https://github.com/leandrow/init-landing-page/issues)
