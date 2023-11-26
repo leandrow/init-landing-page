@@ -1,7 +1,7 @@
 {
   "name": "init-landing-page",
   "author": "Leandro Silva",
-  "version": "0.0.0",
+  "version": "1.2.0",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --emptyOutDir",
