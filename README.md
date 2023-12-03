@@ -4,7 +4,7 @@
 
 ### View
 
-**[See demo](https://leandrow.github.io/init-landing-page)** 👀
+**[See demo](https://init-landing-page.vercel.app)**
 
 `Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
 
@@ -58,7 +58,7 @@ npm run build
 npm run preview
 ```
 
-### What's inside?
+## What's inside?
 
 ```
 Dev
@@ -79,7 +79,7 @@ Build
 
 We also added a customized `404.html` (page not found) for Github pages in the `dev/public` folder.
 
-😃
+## Contributing
 
 **Got any suggestions to make things even better?**
-[Send it here](https://github.com/leandrow/init-landing-page/issues)
+[Send it here](https://github.com/leandrow/init-landing-page/issues) or create a new pull request.
