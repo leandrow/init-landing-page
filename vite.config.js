@@ -1,7 +1,13 @@
+import { resolve } from 'path';
+
 export default {
   root: 'dev',
   build: {
     rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'dev/index.html'),
+        page: resolve(__dirname, 'dev/page/index.html'),
+      },
       output: {
         assetFileNames: (assetInfo) => {
           let extType = assetInfo.name.split('.').at(1);
@@ -16,5 +22,4 @@ export default {
     },
     outDir: '../build',
   },
-  base: '/init-landing-page/',
 };

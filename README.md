@@ -1,4 +1,4 @@
-## 🚀 Init setup
+## ![Rocket icon](dev/public/images/rocket-launch.svg) Init landing page
 
 > Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
@@ -63,6 +63,7 @@ npm run preview
 ```
 Dev
 |-- assets
+|-- page
 |-- public/images
 |-- styles
 |
@@ -71,9 +72,12 @@ Dev
 Build
 |-- assets
 |-- images
+|-- page
 |
 |-- index.html
 ```
+
+We also added a customized `404.html` (page not found) for Github pages in the `dev/public` folder.
 
 😃
 

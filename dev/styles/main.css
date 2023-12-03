@@ -1,4 +1,5 @@
 @import './tailwind.css';
+@import './page.css';
 
 .logo {
   will-change: filter;
