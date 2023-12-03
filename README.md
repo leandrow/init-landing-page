@@ -81,5 +81,6 @@ We also added a customized `404.html` (page not found) for Github pages in the `
 
 ## Contributing
 
-**Got any suggestions to make things even better?**
-[Send it here](https://github.com/leandrow/init-landing-page/issues) or create a new pull request.
+Got any suggestions to make things even better?
+
+[Send it here](https://github.com/leandrow/init-landing-page/issues) or create a **new pull request.**
