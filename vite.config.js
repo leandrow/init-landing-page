@@ -6,7 +6,7 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'dev/index.html'),
-        404: resolve(__dirname, 'dev/404/index.html'),
+        page: resolve(__dirname, 'dev/page/index.html'),
       },
       output: {
         assetFileNames: (assetInfo) => {
@@ -22,5 +22,4 @@ export default {
     },
     outDir: '../build',
   },
-  base: '/init-landing-page',
 };
