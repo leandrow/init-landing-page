@@ -1,16 +1,2 @@
 @import './tailwind.css';
 @import './page.css';
-
-.logo {
-  will-change: filter;
-  transition: filter 300ms;
-}
-.vite:hover {
-  filter: drop-shadow(0 0 1em #646cffaa);
-}
-.vanilla:hover {
-  filter: drop-shadow(0 0 1em #f7df1eaa);
-}
-.tailwind:hover {
-  filter: drop-shadow(0 0 1em #38bdf8aa);
-}

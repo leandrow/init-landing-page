@@ -9,113 +9,91 @@
     <meta property="og:image" content="/images/og.jpg" />
   </head>
   <body class="flex flex-col h-screen">
-    <header class="flex justify-between p-6 min-w-max">
-      <div class="flex items-center justify-start gap-4 pr-4">
-        <i class="ph ph-rocket-launch text-xl"></i>
-        <a href="#home" class="block shrink-0 text-sm">home</a>
-        <a href="#example" class="block shrink-0 text-sm">example</a>
-        <a href="/page/" class="block shrink-0 text-sm">page</a>
-      </div>
-      <div class="flex items-center justify-end gap-4">
-        <a
-          href="https://github.com/leandrow/init-landing-page"
-          class="block shrink-0 text-sm"
-        >
-          github
-        </a>
-        <span
-          aria-hidden="true"
-          class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
-        ></span>
-        <button class="toggle-mode button-rounded">
-          <span class="sr-only">Activate dark or light mode</span>
-          <i class="ph ph-sun text-xl light-icon w-auto hidden"></i>
-          <i class="ph ph-moon text-xl dark-icon w-auto hidden"></i>
-        </button>
+    <header class="p-6">
+      <!-- add content -->
+      <div class="flex justify-between">
+        <div class="flex items-center justify-start gap-4 pr-4">
+          <i class="ph ph-rocket-launch text-xl"></i>
+          <a href="#home" class="block shrink-0 text-sm">home</a>
+          <a href="#example" class="block shrink-0 text-sm">example</a>
+          <a href="/page/" class="block shrink-0 text-sm">page</a>
+        </div>
+        <div class="flex items-center justify-end gap-4">
+          <a
+            href="https://github.com/leandrow/init-landing-page"
+            class="block shrink-0 text-sm"
+          >
+            github
+          </a>
+          <span
+            aria-hidden="true"
+            class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
+          ></span>
+          <button class="toggle-mode button-rounded">
+            <span class="sr-only">Activate dark or light mode</span>
+            <i class="ph ph-sun text-xl light-icon w-auto hidden"></i>
+            <i class="ph ph-moon text-xl dark-icon w-auto hidden"></i>
+          </button>
+        </div>
       </div>
     </header>
-    <main
-      class="w-full max-w-2xl mx-auto grow px-6 divide-y divide-neutral-200 dark:divide-neutral-800"
-    >
-      <!-- When it's a single section:
-      <section id="home" class="self-center lg:self-auto py-4"></section> -->
-      <section id="home" class="py-4">
-        <h1 class="text-5xl my-6 font-semibold">
-          <span class="font-light gradient-text">Init</span> landing page
-        </h1>
-        <p class="font-light">
-          Rapidly build modern landing pages with
-          <span class="inline-block">
-            <a href="https://vitejs.dev" target="_blank">
-              <img
-                src="/images/vite.svg"
-                class="logo vite inline h-7 p-1"
-                alt="Vite logo"
-              />
-            </a>
+    <main class="flex-1 divide">
+      <section id="home" class="p-6">
+        <!-- add content -->
+        <div class="w-full md:max-w-3xl mx-auto">
+          <h1 class="text-5xl my-8 font-semibold">
+            <span class="font-light gradient-text">Init</span> landing page
+          </h1>
+          <p class="font-light">Rapidly build modern landing pages</p>
+          <div class="py-16">
             <a
-              href="https://stackblitz.com/edit/vitejs-vite-pugz49?file=counter.js&terminal=dev"
+              class="inline-block rounded border border-current px-8 py-3 text-sm font-medium transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
+              href="https://www.hyperui.dev"
               target="_blank"
             >
-              <img
-                src="/images/javascript.svg"
-                class="logo vanilla inline h-7 p-1"
-                alt="JavaScript logo"
-              />
+              components
             </a>
-            <a href="https://tailwindcss.com" target="_blank">
-              <img
-                src="/images/tailwind.svg"
-                class="logo tailwind inline h-7 p-1"
-                alt="Tailwind CSS logo"
-              />
-            </a>
-          </span>
-        </p>
-        <div class="py-16">
-          <a
-            class="inline-block rounded border border-current px-8 py-3 text-sm font-medium transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
-            href="https://www.hyperui.dev"
-            target="_blank"
-          >
-            components
-          </a>
-          <p class="text-xs text-neutral-500 py-4">
-            <span
-              class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
-            >
-              Tip
-            </span>
-            You can use
-            <a href="https://www.hyperui.dev" target="_blank"> HypeUI</a>, just
-            copy the components code.
-          </p>
+            <p class="text-xs text-neutral-500 py-4">
+              <span
+                class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
+              >
+                Tip
+              </span>
+              You can use
+              <a href="https://www.hyperui.dev" target="_blank"> HypeUI</a>,
+              just copy the components code.
+            </p>
+          </div>
         </div>
       </section>
-      <section id="example" class="py-8">
-        <h1 class="text-5xl my-6 font-semibold leading-normal">Title</h1>
-        <p class="font-light">Example</p>
-        <div class="py-16">
-          <a
-            class="inline-block rounded border border-current px-8 py-3 text-sm font-medium transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
-            href="/"
-          >
-            button
-          </a>
-          <p class="text-xs text-neutral-500 py-4">
-            <span
-              class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
+      <section id="example" class="p-6">
+        <!-- add content -->
+        <div class="w-full md:max-w-3xl mx-auto">
+          <h1 class="text-5xl my-8 font-semibold">Title</h1>
+          <p class="font-light">Example</p>
+          <div class="py-16">
+            <a
+              class="inline-block rounded border border-current px-8 py-3 text-sm font-medium transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring"
+              href="/"
             >
-              Tip
-            </span>
-            This is just a sample section.
-          </p>
+              button
+            </a>
+            <p class="text-xs text-neutral-500 py-4">
+              <span
+                class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 font-medium text-green-600"
+              >
+                Tip
+              </span>
+              This is just a sample section.
+            </p>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="mt-aut text-center">
-        <p class="text-sm text-neutral-500 p-6 inline-flex gap-x-1 flex-wrap">
+    <footer class="p-6">
+      <!-- add content -->
+      <div class="text-center">
+        <p class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap">
           Made with
           <i class="ph ph-heart-straight text-lg text-red-600"></i> by
           <a href="https://github.com/leandrow"> Leandro Silva </a>

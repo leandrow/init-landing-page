@@ -5,17 +5,47 @@
     <link rel="icon" type="image/svg+xml" href="/images/rocket-launch.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example page</title>
+    <meta name="description" content="Rapidly build modern landing pages" />
+    <meta property="og:image" content="/images/og.jpg" />
   </head>
-  <body>
-    <main class="grid h-screen px-4 place-content-center">
-      <section>
-        <h1 class="text-4xl font-semibold tracking-tight">Example page</h1>
-        <p class="mt-4 text-neutral-500">
-          This is just a sample page.
-          <a href="/">Back to home</a>
-        </p>
+  <body class="flex flex-col h-screen">
+    <header class="p-6">
+      <!-- add content -->
+      <div class="flex justify-between">
+        <div class="flex items-center justify-start gap-4 pr-4">
+          <i class="ph ph-rocket-launch text-xl"></i>
+        </div>
+        <div class="flex items-center justify-end gap-4">
+          <button class="toggle-mode button-rounded">
+            <span class="sr-only">Activate dark or light mode</span>
+            <i class="ph ph-sun text-xl light-icon w-auto hidden"></i>
+            <i class="ph ph-moon text-xl dark-icon w-auto hidden"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="flex-1">
+      <section class="p-6">
+        <!-- add content -->
+        <div class="mx-auto text-center">
+          <h1 class="text-4xl font-semibold tracking-tight">Example page</h1>
+          <p class="mt-4 text-neutral-500">
+            This is just a sample page.
+            <a href="/">Back to home</a>
+          </p>
+        </div>
       </section>
     </main>
-    <script type="module" src="./page.js"></script>
+    <footer class="p-6">
+      <!-- add content -->
+      <div class="text-center">
+        <p class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap">
+          Made with
+          <i class="ph ph-heart-straight text-lg text-red-600"></i> by
+          <a href="https://github.com/leandrow"> Leandro Silva </a>
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="../assets/main.js"></script>
   </body>
 </html>

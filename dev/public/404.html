@@ -5,21 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/images/rocket-launch.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page not found</title>
+    <meta name="description" content="We can't find that page" />
+    <meta property="og:image" content="/images/og.jpg" />
     <link rel="stylesheet" href="/404/style.min.css" />
   </head>
-  <body>
-    <main class="grid h-screen px-4 place-content-center text-center">
-      <section>
-        <span
-          class="inline-block rounded-full bg-yellow-100 dark:bg-neutral-950 px-2 py-1 mb-4 font-medium text-xs text-yellow-600"
-        >
-          404
-        </span>
-        <h1 class="text-4xl font-semibold tracking-tight">Page not found</h1>
-        <p class="mt-4 text-neutral-500">
-          We can't find that page.
-          <a href="/">Back to home</a>
-        </p>
+  <body class="flex items-center justify-center h-screen">
+    <main>
+      <section class="p-6">
+        <!-- add content -->
+        <div class="max-w-xs max-h-fit text-center">
+          <span
+            class="inline-block rounded-full bg-yellow-100 px-2 py-1 mb-4 font-medium text-xs text-yellow-600"
+          >
+            404
+          </span>
+          <h1 class="text-4xl font-semibold tracking-tight">Page not found</h1>
+          <p class="mt-4 text-neutral-500">
+            We can't find that page.
+            <a href="/">Back to home</a>
+          </p>
+        </div>
       </section>
     </main>
   </body>
