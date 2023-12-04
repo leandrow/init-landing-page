@@ -4,8 +4,8 @@ const lightIcon = document.querySelector('.light-icon');
 const toggleMode = document.querySelector('.toggle-mode');
 
 // Set mode: dark or light
-// If left empty, the mode will be set based on the OS preferences
-localStorage.theme = 'dark';
+// If left blank, the mode will be based on OS preferences
+localStorage.theme = '';
 
 function toggleTheme() {
   const isDark =

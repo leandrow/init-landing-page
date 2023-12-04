@@ -10,10 +10,12 @@
 
 ### Dark mode
 
-The project starts with Dark mode activated. To start with **Light mode**:
+Set mode: dark or light
 
 1. Open the `/assets/darkmode.js`
-2. Set `localStorage.theme = 'light'`
+2. Set `localStorage.theme = ''`
+
+If left blank, the mode will be based on OS preferences
 
 ### VS Code
 
