@@ -24,4 +24,7 @@
   .gradient-text {
     @apply bg-gradient-to-r from-blue-500 to-green-600 inline-block text-transparent bg-clip-text;
   }
+  .divide {
+    @apply divide-y divide-neutral-200 dark:divide-neutral-800;
+  }
 }
