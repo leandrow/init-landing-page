@@ -8,13 +8,14 @@
     "preview": "vite preview --host"
   },
   "devDependencies": {
-    "@fontsource-variable/inter": "^5.0.15",
+    "@fontsource-variable/inter": "^5.0.16",
     "@phosphor-icons/web": "^2.0.3",
     "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.32",
     "postcss-import": "^15.1.0",
     "prettier": "2.8.8",
-    "tailwindcss": "^3.3.5",
-    "vite": "^4.5.0"
+    "tailwindcss": "^3.3.6",
+    "vite": "^4.5.1",
+    "vite-plugin-minify": "^1.5.2"
   }
 }
