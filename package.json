@@ -14,6 +14,7 @@
     "postcss": "^8.4.32",
     "postcss-import": "^15.1.0",
     "prettier": "2.8.8",
+    "sass": "^1.69.5",
     "tailwindcss": "^3.3.6",
     "vite": "^4.5.1",
     "vite-plugin-minify": "^1.5.2"
