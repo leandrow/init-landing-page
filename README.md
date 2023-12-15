@@ -22,6 +22,7 @@ If left blank, the mode will be based on OS preferences
 Recommended plugins
 
 - Tailwind CSS IntelliSense
+- Sass (.sass only)
 - Prettier - Code formatter
 
 ## Development
