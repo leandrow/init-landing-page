@@ -2,9 +2,10 @@
 
 > Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
-### View
+### Usage examples
 
-**[See demo](https://init-landing-page.vercel.app)**
+- **[landing page](https://init-landing-page.vercel.app)**
+- **[personal page](https://leandrow.github.io)**
 
 `Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
 
