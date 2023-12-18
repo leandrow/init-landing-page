@@ -7,7 +7,7 @@
 - **[landing page](https://init-landing-page.vercel.app)**
 - **[personal page](https://leandrow.github.io)**
 
-`Tip:` You can use [HypeUI](https://www.hyperui.dev), just copy the components code.
+`Tip:` Use [HypeUI](https://www.hyperui.dev) by simply copying the components code.
 
 ### Dark mode
 
