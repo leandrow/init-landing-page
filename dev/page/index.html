@@ -13,7 +13,8 @@
       <!-- add content -->
       <div class="flex justify-between">
         <div class="flex items-center justify-start gap-4 pr-4">
-          <i class="ph ph-rocket-launch text-xl"></i>
+          <i class="ph ph-arrow-left text-xl"></i>
+          <a href="/" class="block shrink-0 text-sm">back to home</a>
         </div>
         <div class="flex items-center justify-end gap-4">
           <button class="toggle-mode button-rounded">
@@ -24,15 +25,27 @@
         </div>
       </div>
     </header>
-    <main class="flex-1">
+    <main class="flex-1 divide">
       <section class="p-6">
         <!-- add content -->
         <div class="mx-auto text-center">
           <h1 class="text-4xl font-semibold tracking-tight">Example page</h1>
-          <p class="mt-4 text-neutral-500">
-            This is just a sample page.
-            <a href="/">Back to home</a>
-          </p>
+          <p class="mt-4 text-neutral-500">This is just a sample page.</p>
+        </div>
+      </section>
+      <section class="p-6">
+        <!-- add content -->
+        <div class="w-full md:max-w-3xl mx-auto">
+          <h1 class="text-5xl my-8 font-bold">Title</h1>
+          <p class="font-light">Example</p>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 py-16">
+            <div
+              class="h-32 rounded-md bg-neutral-200 dark:bg-neutral-800"
+            ></div>
+            <div
+              class="h-32 rounded-lg bg-neutral-200 dark:bg-neutral-800 sm:col-span-2"
+            ></div>
+          </div>
         </div>
       </section>
     </main>

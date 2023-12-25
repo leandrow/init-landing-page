@@ -14,9 +14,7 @@
       <div class="flex justify-between">
         <div class="flex items-center justify-start gap-4 pr-4">
           <i class="ph ph-rocket-launch text-xl"></i>
-          <a href="#home" class="block shrink-0 text-sm">home</a>
-          <a href="#example" class="block shrink-0 text-sm">example</a>
-          <a href="/page/" class="block shrink-0 text-sm">page</a>
+          <a href="/page/" class="block shrink-0 text-sm">example page</a>
         </div>
         <div class="flex items-center justify-end gap-4">
           <a
@@ -38,33 +36,37 @@
       </div>
     </header>
     <main class="flex-1 divide">
-      <section id="home" class="p-6">
+      <section class="p-6">
         <!-- add content -->
         <div class="w-full md:max-w-3xl mx-auto text-center">
-          <h1 class="text-5xl my-8 font-semibold">
+          <h1 class="text-5xl my-8 font-bold">
             <span class="font-light gradient-text">Init</span> landing page
           </h1>
           <p class="font-light text-balance">
-            Rapidly build modern landing pages.
-            <a
-              href="https://github.com/leandrow/init-landing-page/blob/master/README.md"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Get started <i class="ph ph-arrow-square-out text-lg"></i>
-            </a>
+            Rapidly build modern landing pages
           </p>
           <div class="py-16">
-            <a
-              class="inline-flex items-center gap-2 rounded-md border border-current px-8 py-3 text-sm font-medium transition hover:shadow-lg focus:outline-none focus:ring"
-              href="https://www.hyperui.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>components</span>
-              <i class="ph ph-arrow-square-out text-lg"></i>
-            </a>
-            <p class="text-xs text-neutral-500 py-4">
+            <div class="flex flex-wrap gap-4 justify-center">
+              <a
+                class="w-40 inline-flex justify-center gap-2 rounded-md bg-blue-600 hover:bg-blue-500 px-8 py-3 font-medium text-sm text-white hover:text-white hover:shadow-lg focus:outline-none focus:ring"
+                href="https://github.com/leandrow/init-landing-page/blob/master/README.md"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>guide</span>
+                <i class="ph ph-arrow-square-out text-lg"></i>
+              </a>
+              <a
+                class="w-40 inline-flex justify-center gap-2 rounded-md border border-current px-8 py-3 font-medium text-sm hover:shadow-lg focus:outline-none focus:ring"
+                href="https://www.hyperui.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>components</span>
+                <i class="ph ph-arrow-square-out text-lg"></i>
+              </a>
+            </div>
+            <p class="text-xs text-neutral-500 py-4 text-balance">
               <span
                 class="inline-block rounded-full bg-green-100 dark:bg-neutral-950 px-2 py-1 mr-1 font-medium text-green-700"
               >
@@ -74,21 +76,6 @@
               <a href="https://www.hyperui.dev" target="_blank">HypeUI</a> by
               simply copying the components code.
             </p>
-          </div>
-        </div>
-      </section>
-      <section id="example" class="p-6">
-        <!-- add content -->
-        <div class="w-full md:max-w-3xl mx-auto">
-          <h1 class="text-5xl my-8 font-semibold">Title</h1>
-          <p class="font-light">Example</p>
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8 py-16">
-            <div
-              class="h-32 rounded-md bg-neutral-200 dark:bg-neutral-800"
-            ></div>
-            <div
-              class="h-32 rounded-lg bg-neutral-200 dark:bg-neutral-800 md:col-span-2"
-            ></div>
           </div>
         </div>
       </section>
