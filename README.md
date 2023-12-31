@@ -4,7 +4,7 @@
 
 ### Usage examples
 
-- **[landing page](https://init-landing-page.vercel.app)**
+- **[example page](https://init-landing-page.vercel.app/page/)**
 - **[personal page](https://leandrow.github.io)**
 
 `Tip:` Use [HypeUI](https://www.hyperui.dev) by simply copying the components code.
