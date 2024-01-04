@@ -9,37 +9,68 @@
     <meta property="og:image" content="/images/og.jpg" />
   </head>
   <body class="flex flex-col min-h-[100svh]">
-    <header class="p-6">
+    <header class="max-md:header-fixed p-6">
       <!-- add content -->
-      <div class="flex justify-between">
-        <div class="flex items-center justify-start gap-4 pr-4">
+      <div class="flex justify-between gap-4">
+        <div class="flex items-center justify-start gap-4 shrink-0">
           <i class="ph ph-rocket-launch text-xl"></i>
-          <a href="/page/" class="block shrink-0 text-sm">example page</a>
+          <a href="/page/" class="hidden md:block text-sm">example page</a>
         </div>
-        <div class="flex items-center justify-end gap-4">
+        <div class="hidden md:flex items-center justify-end gap-4">
           <a
             href="https://github.com/leandrow/init-landing-page"
-            class="block shrink-0 text-sm"
+            class="block text-sm"
           >
             github
           </a>
           <span
             aria-hidden="true"
-            class="block h-6 w-px rounded-full bg-neutral-200 dark:bg-neutral-800"
+            class="block h-6 w-px bg-neutral-200 dark:bg-neutral-800"
           ></span>
           <button class="toggle-mode button-rounded">
             <span class="sr-only">Activate dark or light mode</span>
-            <i class="ph ph-sun text-xl light-icon w-auto hidden"></i>
-            <i class="ph ph-moon text-xl dark-icon w-auto hidden"></i>
+            <i class="ph ph-sun text-xl light-icon hidden"></i>
+            <i class="ph ph-moon text-xl dark-icon hidden"></i>
           </button>
         </div>
+        <button class="responsive-btn button-rounded md:hidden">
+          <span class="sr-only">Responsive menu</span>
+          <i class="ph ph-list text-xl"></i>
+        </button>
       </div>
+      <nav class="responsive-menu mt-6 hidden">
+        <ul class="space-y-6">
+          <li>
+            <a href="/page/" class="block text-sm">example page</a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/leandrow/init-landing-page"
+              class="block text-sm"
+            >
+              github
+            </a>
+          </li>
+          <li>
+            <div
+              class="flex items-center gap-2 pt-4 border-t border-neutral-200 dark:border-neutral-800"
+            >
+              <span class="text-xs text-neutral-500">Switch mode</span>
+              <button class="toggle-mode button-rounded">
+                <span class="sr-only">Activate dark or light mode</span>
+                <i class="ph ph-sun text-xl light-icon hidden"></i>
+                <i class="ph ph-moon text-xl dark-icon hidden"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="flex-1 divide">
       <section class="p-6">
         <!-- add content -->
         <div class="w-full md:max-w-3xl mx-auto text-center">
-          <h1 class="text-5xl my-8 font-bold">
+          <h1 class="text-5xl my-10 font-bold">
             <span class="font-light gradient-text">Init</span> landing page
           </h1>
           <p class="font-light text-balance">

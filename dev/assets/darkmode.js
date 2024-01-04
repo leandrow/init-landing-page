@@ -1,7 +1,9 @@
 // Dark mode
-const darkIcon = document.querySelector('.dark-icon');
-const lightIcon = document.querySelector('.light-icon');
-const toggleMode = document.querySelector('.toggle-mode');
+const toggleModeBts = document.querySelectorAll('.toggle-mode');
+const icons = {
+  dark: document.querySelectorAll('.dark-icon'),
+  light: document.querySelectorAll('.light-icon'),
+};
 
 // Set mode: dark or light
 // If left blank, the mode will be based on OS preferences
@@ -13,17 +15,20 @@ function toggleTheme() {
     (localStorage.theme === '' &&
       window.matchMedia('(prefers-color-scheme: dark)').matches);
 
-  if (isDark) {
-    darkIcon.classList.add('hidden');
-    lightIcon.classList.remove('hidden');
-  } else {
-    darkIcon.classList.remove('hidden');
-    lightIcon.classList.add('hidden');
-  }
+  Object.entries(icons).forEach(([mode, iconList]) => {
+    iconList.forEach((icon) => {
+      const shouldShow =
+        (mode === 'dark' && isDark) || (mode === 'light' && !isDark);
+      icon.classList.toggle('hidden', !shouldShow);
+    });
+  });
 
   document.documentElement.classList.toggle('dark', isDark);
   localStorage.theme = isDark ? 'light' : 'dark';
 }
 
-toggleMode.addEventListener('click', toggleTheme);
+toggleModeBts.forEach((button) => {
+  button.addEventListener('click', toggleTheme);
+});
+
 toggleTheme();
