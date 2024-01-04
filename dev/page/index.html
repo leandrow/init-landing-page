@@ -11,16 +11,18 @@
   <body class="flex flex-col min-h-[100svh]">
     <header class="header-fixed p-6">
       <!-- add content -->
-      <div class="flex justify-between gap-4">
-        <div class="flex items-center justify-start gap-4 shrink-0">
-          <i class="ph ph-arrow-left text-xl"></i>
-          <a href="/" class="block text-sm">back to home</a>
+      <div class="flex justify-between gap-6">
+        <div class="flex items-center justify-start gap-6 shrink-0">
+          <a href="/" class="flex text-sm gap-2">
+            <i class="ph ph-arrow-left text-xl"></i>
+            <span>back to home</span>
+          </a>
         </div>
-        <div class="flex items-center justify-end gap-4">
+        <div class="flex items-center justify-end gap-6 shrink-0">
           <button class="toggle-mode button-rounded">
             <span class="sr-only">Activate dark or light mode</span>
-            <i class="ph ph-sun text-xl light-icon w-auto hidden"></i>
-            <i class="ph ph-moon text-xl dark-icon w-auto hidden"></i>
+            <i class="ph ph-sun text-xl light-icon hidden"></i>
+            <i class="ph ph-moon text-xl dark-icon hidden"></i>
           </button>
         </div>
       </div>
