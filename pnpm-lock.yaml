@@ -8,12 +8,12 @@ devDependencies:
   '@fontsource-variable/inter':
     specifier: ^5.0.16
     version: 5.0.16
-  '@phosphor-icons/web':
-    specifier: ^2.0.3
-    version: 2.0.3
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.32)
+  lucide:
+    specifier: ^0.363.0
+    version: 0.363.0
   postcss:
     specifier: ^8.4.32
     version: 8.4.32
@@ -301,10 +301,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
-    dev: true
-
-  /@phosphor-icons/web@2.0.3:
-    resolution: {integrity: sha512-9oYmohi2fo87w3DbtfjBoJxrklVojgXq2wuGcqxKccj2TxMq7UIusKDrGUZYOQHM9pUKkh+kvfmutETMGDR6gg==}
     dev: true
 
   /acorn@8.11.2:
@@ -662,6 +658,10 @@ packages:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
       tslib: 2.6.2
+    dev: true
+
+  /lucide@0.363.0:
+    resolution: {integrity: sha512-/AAsZdclXMOn4Q3wWw6kcyYHzwyafoRyEOCD9bVlhRTU5rxJ3Gs2Hj70xwOhK2z14Iukmon6dTvgzhkoj21YZg==}
     dev: true
 
   /merge2@1.4.1:

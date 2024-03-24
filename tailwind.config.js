@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         sans: ['Inter Variable', ...defaultTheme.fontFamily.sans],
       },
+      strokeWidth: {
+        m: '1.5px',
+      },
     },
   },
   plugins: [],
