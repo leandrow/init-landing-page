@@ -14,15 +14,19 @@
       <div class="flex justify-between gap-6">
         <div class="flex items-center justify-start gap-6 shrink-0">
           <a href="/" class="flex text-sm gap-2">
-            <i class="ph ph-arrow-left text-xl"></i>
+            <i data-lucide="arrow-left" class="w-5 h-5 stroke-m"></i>
             <span>back to home</span>
           </a>
         </div>
         <div class="flex items-center justify-end gap-6 shrink-0">
           <button class="toggle-mode button-rounded">
             <span class="sr-only">Activate dark or light mode</span>
-            <i class="ph ph-sun text-xl light-icon hidden"></i>
-            <i class="ph ph-moon text-xl dark-icon hidden"></i>
+            <figure class="light-icon hidden">
+              <i data-lucide="sun" class="w-5 h-5 stroke-m"></i>
+            </figure>
+            <figure class="dark-icon hidden">
+              <i data-lucide="moon" class="w-5 h-5 stroke-m"></i>
+            </figure>
           </button>
         </div>
       </div>
@@ -54,9 +58,11 @@
     <footer class="p-6">
       <!-- add content -->
       <div class="text-center">
-        <p class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap">
+        <p
+          class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap items-center"
+        >
           made with
-          <i class="ph ph-heart-straight text-lg text-red-600"></i> by
+          <i data-lucide="heart" class="w-5 h-5 stroke-m text-red-600"></i> by
           <a href="https://leandrow.github.io/"> Leandro Silva </a>
         </p>
       </div>

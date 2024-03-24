@@ -1,7 +1,29 @@
 import '../styles/main.sass';
 import '@fontsource-variable/inter';
-import '@phosphor-icons/web/regular';
+import {
+  createIcons,
+  Rocket,
+  Sun,
+  Moon,
+  Menu,
+  ExternalLink,
+  Heart,
+  ArrowLeft,
+} from 'lucide';
 import './darkmode';
+
+// Lucide icons
+createIcons({
+  icons: {
+    Rocket,
+    Sun,
+    Moon,
+    Menu,
+    ExternalLink,
+    Heart,
+    ArrowLeft,
+  },
+});
 
 // Responsive menu
 const btn = document.querySelector('.responsive-btn');

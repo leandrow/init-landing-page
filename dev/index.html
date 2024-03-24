@@ -13,7 +13,7 @@
       <!-- add content -->
       <div class="flex justify-between gap-6">
         <div class="flex items-center justify-start gap-6 shrink-0">
-          <i class="ph ph-rocket-launch text-xl"></i>
+          <i data-lucide="rocket" class="w-5 h-5 stroke-m"></i>
           <a href="/page/" class="hidden md:block text-sm">example page</a>
         </div>
         <div class="hidden md:flex items-center justify-end gap-6 shrink-0">
@@ -29,13 +29,17 @@
           ></span>
           <button class="toggle-mode button-rounded">
             <span class="sr-only">Activate dark or light mode</span>
-            <i class="ph ph-sun text-xl light-icon hidden"></i>
-            <i class="ph ph-moon text-xl dark-icon hidden"></i>
+            <figure class="light-icon hidden">
+              <i data-lucide="sun" class="w-5 h-5 stroke-m"></i>
+            </figure>
+            <figure class="dark-icon hidden">
+              <i data-lucide="moon" class="w-5 h-5 stroke-m"></i>
+            </figure>
           </button>
         </div>
         <button class="responsive-btn button-rounded md:hidden">
           <span class="sr-only">Responsive menu</span>
-          <i class="ph ph-list text-xl"></i>
+          <i data-lucide="menu" class="w-5 h-5 stroke-m"></i>
         </button>
       </div>
       <nav class="responsive-menu mt-6 hidden">
@@ -58,8 +62,12 @@
               <span class="text-xs text-neutral-500">Switch mode</span>
               <button class="toggle-mode button-rounded">
                 <span class="sr-only">Activate dark or light mode</span>
-                <i class="ph ph-sun text-xl light-icon hidden"></i>
-                <i class="ph ph-moon text-xl dark-icon hidden"></i>
+                <figure class="light-icon hidden">
+                  <i data-lucide="sun" class="w-5 h-5 stroke-m"></i>
+                </figure>
+                <figure class="dark-icon hidden">
+                  <i data-lucide="moon" class="w-5 h-5 stroke-m"></i>
+                </figure>
               </button>
             </div>
           </li>
@@ -79,22 +87,28 @@
           <div class="py-16">
             <div class="flex flex-wrap gap-4 justify-center">
               <a
-                class="w-40 inline-flex justify-center gap-2 rounded-md bg-blue-600 hover:bg-blue-500 px-8 py-3 font-medium text-sm text-white hover:text-white hover:shadow-lg focus:outline-none focus:ring"
+                class="w-40 inline-flex justify-center items-center gap-2 rounded-md bg-blue-600 hover:bg-blue-500 px-8 py-3 font-medium text-sm text-white hover:text-white hover:shadow-lg focus:outline-none focus:ring"
                 href="https://github.com/leandrow/init-landing-page/blob/master/README.md"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span>guide</span>
-                <i class="ph ph-arrow-square-out text-lg"></i>
+                <i
+                  data-lucide="external-link"
+                  class="w-4 h-4 stroke-m shrink-0"
+                ></i>
               </a>
               <a
-                class="w-40 inline-flex justify-center gap-2 rounded-md border border-current px-8 py-3 font-medium text-sm hover:shadow-lg focus:outline-none focus:ring"
+                class="w-40 inline-flex justify-center items-center gap-2 rounded-md border border-current px-8 py-3 font-medium text-sm hover:shadow-lg focus:outline-none focus:ring"
                 href="https://www.hyperui.dev"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span>components</span>
-                <i class="ph ph-arrow-square-out text-lg"></i>
+                <i
+                  data-lucide="external-link"
+                  class="w-4 h-4 stroke-m shrink-0"
+                ></i>
               </a>
             </div>
             <p class="text-xs text-neutral-500 py-4 text-balance">
@@ -114,9 +128,11 @@
     <footer class="p-6">
       <!-- add content -->
       <div class="text-center">
-        <p class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap">
+        <p
+          class="text-sm text-neutral-500 inline-flex gap-x-1 flex-wrap items-center"
+        >
           made with
-          <i class="ph ph-heart-straight text-lg text-red-600"></i> by
+          <i data-lucide="heart" class="w-5 h-5 stroke-m text-red-600"></i> by
           <a href="https://leandrow.github.io/"> Leandro Silva </a>
         </p>
       </div>
