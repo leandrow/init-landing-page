@@ -1,10 +1,10 @@
-## ![Rocket icon](dev/public/images/rocket-launch.svg) Init landing page
+## ![Rocket icon](dev/public/images/rocket-launch.svg) LP starter
 
 > Rapidly build modern landing pages with [Vite](https://vitejs.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ### Usage examples
 
-- **[example page](https://init-landing-page.vercel.app/page/)**
+- **[example page](https://lp-starter.vercel.app/page/)**
 - **[personal page](https://leandrow.github.io)**
 
 `Tip:` Use [HypeUI](https://www.hyperui.dev) by simply copying the components code.
@@ -31,13 +31,13 @@ Recommended plugins
 **Git clone**
 
 ```sh
-git clone https://github.com/leandrow/init-landing-page.git
+git clone https://github.com/leandrow/lp-starter.git
 ```
 
 Enter the **project folder**
 
 ```sh
-cd init-landing-page
+cd lp-starter
 ```
 
 **Install dependencies** with [pnpm](https://pnpm.io/)
@@ -87,4 +87,4 @@ We also added a customized `404.html` (page not found) for Github pages in the `
 
 Got any suggestions to make things even better?
 
-[Send it here](https://github.com/leandrow/init-landing-page/issues) or create a **new pull request.**
+[Send it here](https://github.com/leandrow/lp-starter/issues) or create a **new pull request.**
