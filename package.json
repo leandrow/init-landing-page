@@ -2,7 +2,6 @@
   "name": "lp-starter",
   "author": "Leandro Silva",
   "version": "1.5.0",
-  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --emptyOutDir",
