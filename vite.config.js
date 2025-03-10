@@ -1,5 +1,4 @@
 import { resolve } from 'path';
-import { ViteMinifyPlugin } from 'vite-plugin-minify';
 
 export default {
   root: 'dev',
@@ -23,5 +22,5 @@ export default {
     },
     outDir: '../build',
   },
-  plugins: [ViteMinifyPlugin({})],
+  plugins: [],
 };
